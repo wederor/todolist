@@ -30,9 +30,9 @@ function mostraTask() {
 
         novaLi = novaLi + `
             <li class="task-to-do ${task.concluida && "done"}">
-                <img src="/assets/img/check-img.png" alt="Tarefa-ok" onclick="completaTask(${index})">
+                <img src="check-img.png" alt="Tarefa-ok" onclick="completaTask(${index})">
                 <p>${task.tarefa}</p>
-                <img src="assets/img/garbage-can-img.png" alt="Excluir-tarefa" onclick="deletarTask(${index})">
+                <img src="garbage-can-img.png" alt="Excluir-tarefa" onclick="deletarTask(${index})">
             </li>
         
         `
