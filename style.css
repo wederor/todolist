@@ -1,0 +1,101 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.to-do-input {
+
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.to-do-add{
+
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #003329;
+    color: #fff;
+    font-size: 17px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.to-do-add:hover{
+    opacity: 0.8;
+}
+
+.to-do-add:active{
+    opacity: 0.6;
+}
+
+.to-do-list{
+
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.task-to-do{
+
+    background-color: #F2F2F2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.task-to-do:hover img{
+
+    opacity: 1;
+
+
+}
+
+img {
+
+    height: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container {
+
+    background-color: #d1d1d1;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top:20px;
+    margin: 100px auto 0;
+
+
+}
+
+body {
+    
+    height: 100vh;
+    background: linear-gradient(120deg, black, white);
+
+}
+
+.done {
+
+    background-color: #8fac55;
+    text-decoration: line-through;
+
+}
